@@ -1,0 +1,6 @@
+framework module UBiddingBaiduAdapter {
+  umbrella header "UBiddingBaiduAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
