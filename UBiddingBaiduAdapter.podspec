@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiddingBaiduAdapter'
-  s.version          = '10.050.2'
+  s.version          = '10.051.0'
   s.summary          = 'UBiddingBaiduAdapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.vendored_frameworks = 'UBiddingBaiduAdapter.xcframework'
 
-  s.dependency 'BaiduMobAdSDK', '10.050'
+  s.dependency 'BaiduMobAdSDK', '10.051'
   s.dependency 'UBiddingAdSDK'
 end
